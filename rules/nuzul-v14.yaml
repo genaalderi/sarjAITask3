@@ -1,0 +1,40 @@
+# Each rule is one obligation from the deployed agent prompt.
+# When the prompt changes, edit this file - not the code.
+version: nuzul-agent-v14
+source: "Nuzul reservations agent prompt, production excerpt (Release 14)"
+
+rules:
+  - id: NUZ-R01
+    title: Caller addressed by a name not given on this call
+    prompt_line: "Do not address the caller by name unless they have given it to you on this call."
+    severity: high
+
+  - id: NUZ-R02
+    title: Dates read back and explicitly confirmed before save
+    prompt_line: "Before saving any booking, read the check-in and check-out dates back to the caller and get an explicit yes."
+    severity: critical
+
+  - id: NUZ-R03
+    title: Full re-confirmation after a change
+    prompt_line: "If they change any detail afterwards, re-confirm the entire booking from the top before saving."
+    severity: high
+
+  - id: NUZ-R04
+    title: Total quoted before room type and nights confirmed
+    prompt_line: "Never quote a total until the room type and the number of nights are confirmed."
+    severity: medium
+
+  - id: NUZ-R05
+    title: Booking reference read back before the call ends
+    prompt_line: "Never end a reservation call without reading the booking reference back to the caller."
+    severity: high
+
+  - id: NUZ-R06
+    title: Najdi Arabic only, no Modern Standard Arabic
+    prompt_line: "Speak natural Najdi Arabic from the first word of the call to the last; Modern Standard Arabic is not allowed at any point."
+    severity: medium
+
+  - id: NUZ-R07
+    title: Discounts limited to the knowledge base
+    prompt_line: "The only discounts you may offer are the ones in the knowledge base; for anything else, apologize and offer a transfer to a staff member."
+    severity: high

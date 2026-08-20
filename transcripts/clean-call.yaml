@@ -1,0 +1,22 @@
+# A hand-written compliant call. Every rule should PASS.
+# This is the tool's own regression test: if a change to the checkers starts
+# failing this call, the checkers are wrong, not the agent.
+booking_ref: BK-1050
+year: 2026
+turns:
+  - {n: 1,  speaker: agent,  text: "أهلين وسهلين بنُزل للشقق المخدومة، معك نورة، كيف أقدر أساعدك؟"}
+  - {n: 2,  speaker: caller, text: "هلا، أبغى أحجز شقة في جدة"}
+  - {n: 3,  speaker: agent,  text: "أبشر. متى تبي تجي؟"}
+  - {n: 4,  speaker: caller, text: "خمستعشر أغسطس"}
+  - {n: 5,  speaker: agent,  text: "وكم يوم تبي تطلع؟"}
+  - {n: 6,  speaker: caller, text: "أطلع يوم عشرين"}
+  - {n: 7,  speaker: agent,  text: "طيب، تبي شقة غرفتين وصالة ولا استوديو؟"}
+  - {n: 8,  speaker: caller, text: "غرفتين وصالة"}
+  - {n: 9,  speaker: agent,  text: "أعيد عليك: الدخول يوم خمستعشر أغسطس والخروج يوم عشرين أغسطس، خمس ليالي. صح كذا؟"}
+  - {n: 10, speaker: caller, text: "إيه صح"}
+  - {n: 11, speaker: agent,  text: "الإجمالي ألف ومئتين وخمسين ريال لخمس ليالي."}
+  - {n: 12, speaker: caller, text: "تمام، اسمي فهد العتيبي"}
+  - {n: 13, speaker: agent,  text: "أبشر أستاذ فهد، بسجل لك الحجز."}
+  - {n: 14, speaker: agent,  text: "تم الحجز، ورقم الحجز حقك BK-1050. تبي أعيده عليك؟"}
+  - {n: 15, speaker: caller, text: "لا تمام، شكراً"}
+  - {n: 16, speaker: agent,  text: "شكراً لاتصالك بنُزل، مع السلامة."}

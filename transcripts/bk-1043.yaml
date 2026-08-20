@@ -1,0 +1,24 @@
+# The call that produced BK-1043, exactly as supplied in the release pack.
+booking_ref: BK-1043
+year: 2026
+turns:
+  - {n: 1,  speaker: agent,  text: "أهلين وسهلين بنُزل للشقق المخدومة، معك نورة، كيف أقدر أساعدك؟"}
+  - {n: 2,  speaker: caller, text: "هلا، أبغى أحجز شقة في الرياض"}
+  - {n: 3,  speaker: agent,  text: "أبشر. متى تبي تجي؟"}
+  - {n: 4,  speaker: caller, text: "خمستعشر أغسطس"}
+  - {n: 5,  speaker: agent,  text: "تمام. الإجمالي مئتين وخمسين ريال."}
+  - {n: 6,  speaker: caller, text: "طيب زين. وأطلع يوم اثنعشر"}
+  - {n: 7,  speaker: agent,  text: "سوف أقوم بتسجيل الحجز الآن."}
+  - {n: 8,  speaker: agent,  text: "تم الحجز باسمك أستاذ فهد."}
+  - {n: 9,  speaker: caller, text: "لحظة، الشقة كم غرفة؟"}
+  - {n: 10, speaker: agent,  text: "في خدمة ثانية أقدر أساعدك فيها؟"}
+  - {n: 11, speaker: caller, text: "قلت لك كم غرفة الشقة"}
+  - {n: 12, speaker: agent,  text: "الشقة غرفتين وصالة."}
+  - {n: 13, speaker: caller, text: "طيب في خصم للحجز الطويل؟"}
+  - {n: 14, speaker: agent,  text: "ما أقدر أعتمد خصم غير الموجود عندنا. تبي أحولك لموظف؟"}
+  - {n: 15, speaker: caller, text: "لا خلاص. بس غيّر الخروج يوم عشرين"}
+  - {n: 16, speaker: agent,  text: "تم التعديل."}
+  - {n: 17, speaker: caller, text: "والسعر نفسه؟"}
+  - {n: 18, speaker: agent,  text: "إيه نفس السعر، مئتين وخمسين."}
+  - {n: 19, speaker: caller, text: "تمام شكراً"}
+  - {n: 20, speaker: agent,  text: "شكراً لاتصالك بنُزل، مع السلامة."}
